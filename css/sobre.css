@@ -1,0 +1,54 @@
+.sobre{
+  background: linear-gradient(45deg, #CC35DA , #3D0676, #9241ee );
+  background-size: 100% 400%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: degrade-animado 8s  infinite alternate ;
+}
+
+@keyframes degrade-animado {
+  0%{
+    background-position-y: 0%;
+  }
+  100%{
+    background-position-y: 100%;
+  }
+}
+
+.sobre h1{
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 60px;
+}
+
+ .sobre p {
+  font-size: 1.5rem;
+  color: #D9D9D9;
+ }
+
+ .destaque{
+  font-weight: bold;
+  color: white;
+ }
+
+
+ @media (max-width: 1000px){
+
+  .sobre{
+    height: 60vh;
+  }
+
+  .sobre h1 {
+    font-size: 2rem;
+  }
+
+  .sobre p {
+    font-size: 1rem;
+  }
+ }
+
+
+
