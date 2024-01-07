@@ -120,7 +120,7 @@ img {
 @media (max-width: 800px) {
   .introducao {
     display: flex;
-    min-height: 60vh;
+    min-height: 50vh;
     align-items: center;
     justify-content: center;
     text-align: center;
