@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header class="header">
     <img src="./img/marca.svg" alt="Matt Alves">
@@ -34,10 +36,13 @@
   </main>
 
   <section class="sobre">
-    <div>
-      <h1>Sobre mim</h1>
-      <p>Desenvolvo pequenos projetos como o Scook <br> utilizando apenas <span class="destaque"> HTML, CSS </span> e <span class="destaque"> JavaScript. </span> Para <br> aplicativos web como a rede social MattPlay eu <br> trabalhei no <span class="destaque">UX </span> e <span class="destaque"> UI Design. </span></p>
-  </div>
+    <div class="sobre-container">
+      <div class="sobre-description">
+        <h1>Sobre mim</h1>
+        <p>Desenvolvo pequenos projetos como o Scook utilizando  apenas <span class="destaque"> HTML, CSS </span> e <span class="destaque"> JavaScript. </span> Para aplicativos web como  a rede social MattPlay eu trabalhei no  <span class="destaque">UX </span> e <span class="destaque"> UI Design. </span></p>
+      </div>
+        <img src="./img/vetor.png" alt="ilustrador">
+    </div>
   </section>
 
   <section class="habilidade" id="habilidade">
@@ -57,36 +62,36 @@
       <p>Explore alguns dos projetos em que estive envolvido anteriormente.</p>
     </div>
     <div class="card-box">
-    <div class="card">
-      <img src="./img/projetos/organiza.jpg" class="card-img" alt="Organiza" width="410">
-      <div class="card-body">
-        <h1 class="card-title">Organiza</h1>
-        <p class="card-info">O Organiza é uma plataforma para administração de finanças pessoais, que possibilita aos usuários monitorarem e controlarem suas entradas, saídas e investimentos de forma eficiente.</p>
+      <div class="card">
+        <img src="./img/projetos/organiza.jpg" class="card-img" alt="Organiza" width="410">
+        <div class="card-body">
+          <h1 class="card-title">Organiza</h1>
+          <p class="card-info">O Organiza é uma plataforma para administração de finanças pessoais, que possibilita aos usuários monitorarem e controlarem suas entradas, saídas e investimentos de forma eficiente.</p>
 
-        <button class="card-btn">Não disponivel</button>
+          <button class="card-btn">Não disponivel</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./img/projetos/mattcine.jpg" class="card-img" alt="Mattcine" width="410">
+        <div class="card-body">
+          <h1 class="card-title">Mattcine</h1>
+          <p class="card-info">O Mattcine é um site focado em análises de filmes, proporcionando aos usuários uma forma confiável de explorar e analisar a qualidade cinematográfica.</p>
+
+          <button class="card-btn">Não disponivel</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./img/projetos/bikcraft.jpg" class="card-img" alt="Bikcraft" width="410">
+        <div class="card-body">
+          <h1 class="card-title">Bikcraft</h1>
+          <p class="card-info">Descubra a beleza dos nossos produtos, sinta a essência especial de cada item e encante-se ao trazer uma Bikcraft para deixar sua casa mais aconchegante.</p>
+
+          <button class="card-btn">Não disponivel</button>
+        </div>
       </div>
     </div>
-
-    <div class="card">
-      <img src="./img/projetos/mattcine.jpg" class="card-img" alt="Mattcine" width="410">
-      <div class="card-body">
-        <h1 class="card-title">Mattcine</h1>
-        <p class="card-info">O Mattcine é um site focado em análises de filmes, proporcionando aos usuários uma forma confiável de explorar e analisar a qualidade cinematográfica.</p>
-
-        <button class="card-btn">Não disponivel</button>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="./img/projetos/bikcraft.jpg" class="card-img" alt="Bikcraft" width="410">
-      <div class="card-body">
-        <h1 class="card-title">Bikcraft</h1>
-        <p class="card-info">Descubra a beleza dos nossos produtos, sinta a essência especial de cada item e encante-se ao trazer uma Bikcraft para deixar sua casa mais aconchegante.</p>
-
-        <button class="card-btn">Não disponivel</button>
-      </div>
-    </div>
-  </div>
   </section>
 
   <footer class="footer" id="contato">
@@ -117,7 +122,8 @@
         <p>@omattalves</p>
       </div>
     </div>
-    
+
   </footer>
 </body>
+
 </html>
